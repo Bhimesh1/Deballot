@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+              color: #ffffff;
+              box-sizing: border-box;
+              font-family: 'poppins', sans-serif;
+  }
+
+  .hero {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #4379af;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+
+  #inside {
+    padding: 25px;
+    border-radius: 50px;
+    height: 475px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1);
+    background: #4379af;
+  }
+  
+  #inside1 {
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    background: #2ec194;
+  }
+
+  #inside2 {
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: -15px -15px 15px rgba(0,0,0,0.1),
+                15px 15px 15px rgba(0,0,0,0.1);
+    background: #2ec194;
+  }
+
+  #inside3 {
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: -15px -15px 15px rgba(0,0,0,0.1),
+                15px 15px 15px rgba(0,0,0,0.1);
+    background: rgba(252, 252, 252, 0.068);
+  }
+
+  #inside4 {
+    padding: 50px;
+    background-color: #4379af;
+
+  }
+
+  #outside {
+    border: 5px solid rgb(208, 238, 255);
+    padding: 10px;
+    background: rgb(233, 17, 17);
+  }
+
+  #table{
+    border: 1px solid #2ec194;
+    border-radius: 0px;
+    border-collapse: separate;
+    empty-cells: hide;
+    border: hidden;
+  }
